@@ -83,3 +83,31 @@ a {
 	height: 100%;
 	border: transparent;
 }
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.style_button {
+	background-color: #f2f2f2;
+	color : #757575;
+	font-size: 13px;
+	border: none;
+	margin : 5px;
+}
+
+footer {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	background-color: #f2f2f2;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
