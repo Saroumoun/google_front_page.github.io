@@ -10,23 +10,22 @@
 		<ul>
 			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
 			<li><a href="https://www.google.fr/imghp?hl=en&tab=wi">Images</a></li>
-			<li><a href="https://www.google.fr/intl/en/about/products?tab=wh"><img src="Images/tab_index.png"></a></li>
-			<li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.fr/">Sign In</a></li>
+			<li><a href="https://www.google.fr/intl/en/about/products?tab=wh"><img src="Images/tab_index.png" id="appicon"></a></li>
+			<li id="sign_in"><a class= "sign_in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.fr/">Sign In</a></li>
 		</ul>
 	</nav>
-	<div>
-		<p> <img src="images/googlel_logo.png"> </p>
-		<div>
-			<input type=text></input>
-			<div>
-				<div><img src="images/voice_search_button.png"></div>
-			</div>
-		</div>
-			<div>
-				<input value="Recherche Google" aria-label="Recherche Google" type="submit"> </input>
-				<input value="J'ai de la chance" ="" aria-label="J'ai de la chance" type="submit"> </input>
-			</div>
+	
+	<p class="google_logo"> <img src="images/googlel_logo.png" id="logo"> </p>
+	<div class="search">
+		<div class="test1"><input type=text id="user_input"></input></div>
+		<div class="test2"><img src="images/voice_search_button.png" id="micro"></div>
 	</div>
+	
+	<div>
+		<input value="Recherche Google" aria-label="Recherche Google" type="submit" > </input>
+		<input value="J'ai de la chance" ="" aria-label="J'ai de la chance" type="submit"> </input>
+	</div>
+
 	<div class="fbar">
 		<div>
 		<span class="fbar">France</span>
