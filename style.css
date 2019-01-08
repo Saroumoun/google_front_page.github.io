@@ -28,18 +28,23 @@ li {
 .test1{
 	width: 420px;
 	height: 34px;
-	border: 2px solid black;
+	border: 1px solid #f2f2f2;
 	border-right: none;
+	box-shadow: 2px 2px 1px #f2f2f2;
 }
 .test2{
 	height: 34px;
-	border: 2px solid black;
+	border: 1px solid #f2f2f2;
 	border-left: none;
+	box-shadow: 2px 2px 1px #f2f2f2;
+
+
+
 }
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #939393;
 }
 
 #sign_in {
@@ -95,8 +100,12 @@ a {
 	background-color: #f2f2f2;
 	color : #757575;
 	font-size: 13px;
+	font-weight: bold;
 	border: none;
 	margin : 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 1px #f2f2f2;
+
 }
 
 footer {
@@ -106,8 +115,22 @@ footer {
 	background-color: #f2f2f2;
 }
 
+footer div {
+	border-style: solid;
+	border-color: #e4e4e4;
+	border-width: 0.5px;
+}
+
 .footer {
 	display: flex;
 	justify-content: space-between;
+	font-size: 15px;
+	color: #939393;
 	margin-bottom: 10px;
+}
+
+.pays {
+	padding: 10px;
+	color: #939393;
+
 }
